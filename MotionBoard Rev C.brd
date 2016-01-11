@@ -4062,27 +4062,27 @@ design rules under a new name.</description>
 <element name="SJ1" library="SparkFun-Passives" package="PAD-JUMPER-2-NO_YES_SILK" value="" x="50.5968" y="25.4" rot="MR180"/>
 <element name="SJ2" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK" value="" x="48.5648" y="25.4" rot="MR0"/>
 <element name="SJ3" library="SparkFun-Passives" package="PAD-JUMPER-3-2OF3_NC_BY_TRACE_YES_SILK_FULL_BOX" value="" x="41.8592" y="6.5024" rot="MR90"/>
-<element name="R1" library="Paul" package="0603" value="170k" x="76.6064" y="12.192" smashed="yes" rot="R270">
+<element name="R1" library="Paul" package="0603" value="17k" x="76.6064" y="12.192" smashed="yes" rot="R270">
 <attribute name="NAME" x="77.4192" y="12.9794" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="74.9046" y="13.716" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R2" library="Paul" package="0603" value="330k" x="80.4672" y="21.9456" rot="R270"/>
+<element name="R2" library="Paul" package="0603" value="33k" x="80.4672" y="21.9456" rot="R270"/>
 <element name="JP1" library="pinhead-2" package="2X04SMD" value="" x="81.6864" y="27.432" rot="R180"/>
-<element name="R3" library="Paul" package="0603" value="170k" x="75.7936" y="16.9672" smashed="yes">
+<element name="R3" library="Paul" package="0603" value="17k" x="75.7936" y="16.9672" smashed="yes">
 <attribute name="NAME" x="74.1426" y="17.3736" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="74.2696" y="15.2654" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="R6" library="Paul" package="0603" value="330k" x="77.8256" y="21.9456" rot="R270"/>
-<element name="R15" library="Paul" package="0603" value="170k" x="85.2424" y="8.8392" smashed="yes">
+<element name="R6" library="Paul" package="0603" value="33k" x="77.8256" y="21.9456" rot="R270"/>
+<element name="R15" library="Paul" package="0603" value="17k" x="85.2424" y="8.8392" smashed="yes">
 <attribute name="NAME" x="83.8962" y="9.3472" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="83.7184" y="7.1374" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="R16" library="Paul" package="0603" value="330k" x="75.3872" y="22.1488" rot="R270"/>
-<element name="R17" library="Paul" package="0603" value="170k" x="86.6648" y="20.4216" smashed="yes" rot="R180">
+<element name="R16" library="Paul" package="0603" value="33k" x="75.3872" y="22.1488" rot="R270"/>
+<element name="R17" library="Paul" package="0603" value="17k" x="86.6648" y="20.4216" smashed="yes" rot="R180">
 <attribute name="NAME" x="87.2998" y="18.5928" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="88.1888" y="22.1234" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R18" library="Paul" package="0603" value="330k" x="82.9056" y="22.1488" rot="R270"/>
+<element name="R18" library="Paul" package="0603" value="33k" x="82.9056" y="22.1488" rot="R270"/>
 <element name="C21" library="Paul" package="0603" value="100n" x="86.6648" y="21.844" smashed="yes" rot="R180">
 <attribute name="NAME" x="87.6554" y="23.4696" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="88.1888" y="23.5458" size="0.8128" layer="27" font="vector" rot="R180"/>

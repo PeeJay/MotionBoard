@@ -15504,15 +15504,15 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NO" device="YES_SILK" value=""/>
 <part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device="" value=""/>
 <part name="SJ3" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_TRACE" device="_SMALL" value=""/>
-<part name="R1" library="Paul" deviceset="RESISTOR" device="0603" value="170k"/>
-<part name="R2" library="Paul" deviceset="RESISTOR" device="0603" value="330k"/>
+<part name="R1" library="Paul" deviceset="RESISTOR" device="0603" value="17k"/>
+<part name="R2" library="Paul" deviceset="RESISTOR" device="0603" value="33k"/>
 <part name="JP1" library="pinhead-2" deviceset="PINHD-2X04" device="_2.54-SMD"/>
-<part name="R3" library="Paul" deviceset="RESISTOR" device="0603" value="170k"/>
-<part name="R6" library="Paul" deviceset="RESISTOR" device="0603" value="330k"/>
-<part name="R15" library="Paul" deviceset="RESISTOR" device="0603" value="170k"/>
-<part name="R16" library="Paul" deviceset="RESISTOR" device="0603" value="330k"/>
-<part name="R17" library="Paul" deviceset="RESISTOR" device="0603" value="170k"/>
-<part name="R18" library="Paul" deviceset="RESISTOR" device="0603" value="330k"/>
+<part name="R3" library="Paul" deviceset="RESISTOR" device="0603" value="17k"/>
+<part name="R6" library="Paul" deviceset="RESISTOR" device="0603" value="33k"/>
+<part name="R15" library="Paul" deviceset="RESISTOR" device="0603" value="17k"/>
+<part name="R16" library="Paul" deviceset="RESISTOR" device="0603" value="33k"/>
+<part name="R17" library="Paul" deviceset="RESISTOR" device="0603" value="17k"/>
+<part name="R18" library="Paul" deviceset="RESISTOR" device="0603" value="33k"/>
 <part name="C21" library="Paul" deviceset="CAP" device="0603" value="100n"/>
 <part name="C22" library="Paul" deviceset="CAP" device="0603" value="100n"/>
 <part name="C23" library="Paul" deviceset="CAP" device="0603" value="100n"/>
