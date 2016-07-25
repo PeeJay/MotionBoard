@@ -3927,7 +3927,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="33.6042" y="35.6362" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="30.6832" y="35.6362" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R52" library="resistor" package="R0603" value="1.5k" x="34.2392" y="29.1592" smashed="yes" rot="R270">
+<element name="R52" library="resistor" package="R0603" value="1k" x="34.2392" y="29.1592" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.909" y="32.6898" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="32.2072" y="30.0482" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -3979,7 +3979,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.9814" y="18.8214" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="30.48" y="21.6662" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R7" library="resistor" package="R0603" value="1.5k" x="10.8204" y="45.72" smashed="yes">
+<element name="R7" library="resistor" package="R0603" value="1k" x="10.8204" y="45.72" smashed="yes">
 <attribute name="NAME" x="11.3538" y="46.8122" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="9.9314" y="43.688" size="1.27" layer="27"/>
 </element>
@@ -4164,7 +4164,6 @@ design rules under a new name.</description>
 <contactref element="C57" pad="2"/>
 <contactref element="IC7" pad="3"/>
 <contactref element="C44" pad="2"/>
-<contactref element="RJ1" pad="GND"/>
 <contactref element="R61" pad="1"/>
 <contactref element="R50" pad="1"/>
 <contactref element="RJ1" pad="SHIELD1"/>
@@ -4321,7 +4320,6 @@ design rules under a new name.</description>
 <wire x1="23.3308" y1="29.2608" x2="23.1648" y2="29.2608" width="0.2032" layer="1"/>
 <wire x1="23.1648" y1="29.2608" x2="22.1488" y2="30.2768" width="0.2032" layer="1"/>
 <wire x1="22.1488" y1="30.2768" x2="21.5138" y2="30.2768" width="0.2032" layer="1"/>
-<wire x1="21.5138" y1="30.2768" x2="19.7612" y2="28.5242" width="0.2032" layer="1"/>
 <via x="59.1312" y="29.2608" extent="1-16" drill="0.381"/>
 <via x="58.42" y="25.6032" extent="1-16" drill="0.381"/>
 <via x="63.0936" y="35.1536" extent="1-16" drill="0.381"/>
@@ -4416,7 +4414,9 @@ design rules under a new name.</description>
 <wire x1="21.5392" y1="3.8608" x2="21.5392" y2="3.1076" width="0.2032" layer="1"/>
 <wire x1="21.5392" y1="3.1076" x2="21.5104" y2="3.0788" width="0.2032" layer="1"/>
 <wire x1="19.7104" y1="3.5288" x2="19.7104" y2="4.064" width="0.2032" layer="1"/>
+<contactref element="RJ1" pad="GND"/>
 <wire x1="51.4468" y1="23.0632" x2="49.7468" y2="21.6408" width="0" layer="19" extent="1-1"/>
+<wire x1="21.5138" y1="30.2768" x2="19.7612" y2="28.5242" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="C13" pad="2"/>
@@ -6153,10 +6153,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="TD-">
 <contactref element="IC8" pad="20"/>
-<contactref element="RJ1" pad="TD-"/>
 <contactref element="R55" pad="2"/>
 <contactref element="C55" pad="1"/>
-<wire x1="19.7612" y1="36.1442" x2="20.3454" y2="36.1442" width="0.2032" layer="1"/>
 <wire x1="20.3454" y1="36.1442" x2="20.7264" y2="36.1696" width="0.2032" layer="1"/>
 <wire x1="20.7264" y1="36.1696" x2="23.3308" y2="36.1696" width="0.2032" layer="1"/>
 <wire x1="23.3308" y1="37.7952" x2="23.3308" y2="36.1696" width="0.2032" layer="1"/>
@@ -6166,7 +6164,9 @@ design rules under a new name.</description>
 <wire x1="22.5552" y1="28.448" x2="21.9456" y2="29.0576" width="0.2032" layer="1"/>
 <via x="21.9456" y="29.0576" extent="1-16" drill="0.3556"/>
 <wire x1="21.9456" y1="29.0576" x2="21.9456" y2="33.9598" width="0.2032" layer="16"/>
-<wire x1="21.9456" y1="33.9598" x2="19.7612" y2="36.1442" width="0.2032" layer="16"/>
+<contactref element="RJ1" pad="TD-"/>
+<wire x1="19.7612" y1="36.1442" x2="20.3454" y2="36.1442" width="0" layer="19" extent="1-1"/>
+<wire x1="21.9456" y1="33.9598" x2="20.7264" y2="36.1696" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="RD+">
 <contactref element="IC8" pad="23"/>

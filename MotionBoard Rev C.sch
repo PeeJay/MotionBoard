@@ -15387,7 +15387,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="SUPPLY65" library="supply2" deviceset="GND" device=""/>
 <part name="P+16" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="C14" library="Paul" deviceset="CAP" device="0603" value="100n"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="1.5k"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="Q1" library="transistor-fet" deviceset="BSL207SP" device="" value="NTGS3441T1G"/>
 <part name="SUPPLY87" library="supply2" deviceset="GND" device=""/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
@@ -15402,7 +15402,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="P+3" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="IC8" library="microbuilder" deviceset="LAN8720" device=""/>
-<part name="R52" library="resistor" deviceset="R-US_" device="R0603" value="1.5k"/>
+<part name="R52" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R64" library="resistor" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="R63" library="resistor" deviceset="R-US_" device="R0603" value="12.1k"/>
 <part name="Q3" library="crystal" deviceset="CRYSTAL" device="HC49UP" value="25MHz"/>
@@ -15444,7 +15444,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="R59" library="resistor" deviceset="R-US_" device="R0603" value="49.9R"/>
 <part name="R60" library="resistor" deviceset="R-US_" device="R0603" value="49.9R"/>
 <part name="RJ1" library="Paul" deviceset="HR911105A" device=""/>
-<part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY62" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY70" library="supply2" deviceset="GND" device=""/>
 <part name="R54" library="resistor" deviceset="R-US_" device="R0603" value="49.9R"/>
@@ -17485,7 +17484,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="VALUE" x="57.15" y="178.562" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="RJ1" gate="G$1" x="290.83" y="201.93"/>
-<instance part="SUPPLY19" gate="GND" x="226.06" y="210.82"/>
 <instance part="SUPPLY62" gate="GND" x="241.3" y="165.1"/>
 <instance part="SUPPLY70" gate="GND" x="325.12" y="157.48"/>
 <instance part="R54" gate="G$1" x="172.72" y="218.44" smashed="yes" rot="R270">
@@ -17567,12 +17565,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="C44" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="SUPPLY19" gate="GND" pin="GND"/>
-<wire x1="226.06" y1="213.36" x2="226.06" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="RJ1" gate="G$1" pin="GND"/>
-<wire x1="226.06" y1="215.9" x2="250.19" y2="184.15" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R61" gate="G$1" pin="1"/>
 <wire x1="320.04" y1="162.56" x2="325.12" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY70" gate="GND" pin="GND"/>
@@ -17591,8 +17583,13 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="241.3" y1="176.53" x2="241.3" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="RJ1" gate="G$1" pin="SHIELD0"/>
 <wire x1="250.19" y1="179.07" x2="241.3" y2="179.07" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="179.07" x2="241.3" y2="176.53" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="179.07" x2="241.3" y2="178.816" width="0.1524" layer="91"/>
 <junction x="241.3" y="176.53"/>
+<pinref part="RJ1" gate="G$1" pin="GND"/>
+<wire x1="241.3" y1="178.816" x2="241.3" y2="176.53" width="0.1524" layer="91"/>
+<wire x1="250.19" y1="184.15" x2="241.3" y2="184.15" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="184.15" x2="241.3" y2="179.07" width="0.1524" layer="91"/>
+<junction x="241.3" y="179.07"/>
 </segment>
 <segment>
 <pinref part="C49" gate="G$1" pin="2"/>
@@ -17860,14 +17857,14 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <wire x1="147.32" y1="205.74" x2="170.18" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="205.74" x2="172.72" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="222.25" y1="198.12" x2="222.25" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="222.25" y1="189.23" x2="222.25" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="222.25" y1="205.74" x2="172.72" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="213.36" x2="172.72" y2="205.74" width="0.1524" layer="91"/>
 <junction x="172.72" y="205.74"/>
 <label x="162.56" y="205.74" size="1.778" layer="95"/>
 <pinref part="IC8" gate="G$1" pin="TX+"/>
 <pinref part="RJ1" gate="G$1" pin="TD+"/>
-<wire x1="250.19" y1="189.23" x2="222.25" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="250.19" y1="189.23" x2="222.25" y2="189.23" width="0.1524" layer="91"/>
 <pinref part="R54" gate="G$1" pin="2"/>
 <pinref part="C54" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="198.12" x2="170.18" y2="205.74" width="0.1524" layer="91"/>
@@ -17878,30 +17875,32 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <wire x1="147.32" y1="200.66" x2="177.8" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="200.66" x2="180.34" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="250.19" y1="199.39" x2="180.34" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="213.36" x2="180.34" y2="200.66" width="0.1524" layer="91"/>
-<junction x="180.34" y="200.66"/>
 <label x="162.56" y="200.66" size="1.778" layer="95"/>
 <pinref part="IC8" gate="G$1" pin="TX-"/>
-<pinref part="RJ1" gate="G$1" pin="TD-"/>
 <pinref part="R55" gate="G$1" pin="2"/>
 <pinref part="C55" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="198.12" x2="177.8" y2="200.66" width="0.1524" layer="91"/>
 <junction x="177.8" y="200.66"/>
+<pinref part="RJ1" gate="G$1" pin="TD-"/>
+<wire x1="250.19" y1="199.39" x2="228.854" y2="199.39" width="0.1524" layer="91"/>
+<wire x1="228.854" y1="199.39" x2="228.854" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="228.854" y1="200.66" x2="180.34" y2="200.66" width="0.1524" layer="91"/>
+<junction x="180.34" y="200.66"/>
 </segment>
 </net>
 <net name="RD+" class="0">
 <segment>
 <wire x1="147.32" y1="177.8" x2="198.12" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="177.8" x2="200.66" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="203.2" x2="231.14" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="201.93" x2="231.14" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="177.8" x2="200.66" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="182.88" x2="200.66" y2="177.8" width="0.1524" layer="91"/>
 <junction x="200.66" y="177.8"/>
 <label x="162.56" y="177.8" size="1.778" layer="95"/>
 <pinref part="IC8" gate="G$1" pin="RX+"/>
 <pinref part="RJ1" gate="G$1" pin="RD+"/>
-<wire x1="250.19" y1="201.93" x2="231.14" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="250.19" y1="201.93" x2="231.14" y2="201.93" width="0.1524" layer="91"/>
 <pinref part="R56" gate="G$1" pin="2"/>
 <pinref part="C56" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="170.18" x2="198.12" y2="177.8" width="0.1524" layer="91"/>
@@ -17917,9 +17916,9 @@ NOTE: CD1 and CD2 are connected internally</description>
 <junction x="208.28" y="172.72"/>
 <label x="162.56" y="172.72" size="1.778" layer="95"/>
 <pinref part="IC8" gate="G$1" pin="RX-"/>
-<wire x1="233.68" y1="172.72" x2="233.68" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="172.72" x2="233.68" y2="212.09" width="0.1524" layer="91"/>
 <pinref part="RJ1" gate="G$1" pin="RD-"/>
-<wire x1="233.68" y1="210.82" x2="250.19" y2="212.09" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="212.09" x2="250.19" y2="212.09" width="0.1524" layer="91"/>
 <pinref part="R57" gate="G$1" pin="2"/>
 <pinref part="C57" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="170.18" x2="205.74" y2="172.72" width="0.1524" layer="91"/>
@@ -17979,12 +17978,12 @@ NOTE: CD1 and CD2 are connected internally</description>
 <net name="VDD" class="0">
 <segment>
 <pinref part="RJ1" gate="G$1" pin="P4"/>
-<wire x1="250.19" y1="194.31" x2="241.3" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="205.74" x2="241.3" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="250.19" y1="194.31" x2="241.3" y2="194.31" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="194.31" x2="241.3" y2="207.01" width="0.1524" layer="91"/>
 <pinref part="RJ1" gate="G$1" pin="P5"/>
-<wire x1="241.3" y1="208.28" x2="250.19" y2="207.01" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="208.28" x2="241.3" y2="233.68" width="0.1524" layer="91"/>
-<junction x="241.3" y="208.28"/>
+<wire x1="241.3" y1="207.01" x2="250.19" y2="207.01" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="207.01" x2="241.3" y2="233.68" width="0.1524" layer="91"/>
+<junction x="241.3" y="207.01"/>
 <wire x1="208.28" y1="233.68" x2="200.66" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="233.68" x2="195.58" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="233.68" x2="93.98" y2="233.68" width="0.1524" layer="91"/>

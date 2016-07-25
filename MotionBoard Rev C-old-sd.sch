@@ -13474,7 +13474,7 @@ DDEController.pdf</description>
 <part name="SUPPLY65" library="supply2" deviceset="GND" device=""/>
 <part name="P+16" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="C14" library="Paul" deviceset="CAP" device="0603" value="100n"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="1.5k"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="Q1" library="transistor-fet" deviceset="BSL207SP" device="" value="NTGS3441T1G"/>
 <part name="SUPPLY87" library="supply2" deviceset="GND" device=""/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
@@ -13488,7 +13488,7 @@ DDEController.pdf</description>
 <part name="P+3" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="IC8" library="microbuilder" deviceset="LAN8720" device=""/>
-<part name="R52" library="resistor" deviceset="R-US_" device="R0603" value="1.5k"/>
+<part name="R52" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R64" library="resistor" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="R63" library="resistor" deviceset="R-US_" device="R0603" value="12.1k"/>
 <part name="Q3" library="crystal" deviceset="CRYSTAL" device="HC49UP" value="25MHz"/>
